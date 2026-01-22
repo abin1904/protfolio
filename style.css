@@ -1,0 +1,146 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:linear-gradient(to right, #38b0e3, #f5f6f6);
+  color: #333;
+}
+
+/* Navbar */
+nav {color: #fcfbfb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #222;
+  position: static;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  text-align: left;
+}
+.emp{
+  margin-right: -50%;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #222, #1e7bad);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(255, 253, 254);
+  color: #222;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-container span {
+  background: #f1e8e8;
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 20px;
+}
+
+/* Achivements */
+.achive-card {color: #fcfbfb;
+  background: linear-gradient(to top , black, blue);
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: center;
+}
+.ibm{
+  color: rgb(10, 6, 1);
+}
+/* Contact */
+.contact-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+/* Instagram Button */
+.instagram { align-items: center; 
+  color: white;
+  background:linear-gradient(90deg,#405DE6,#5851DB,#833AB4,#E1306C,#FD1D1D);
+  width: 2px;
+  height: inherit;
+}
+
+/* LinkedIn Button */
+.linkedin { align-items: center;
+  color: #fefcfc;
+  background-color: #33b3f8;
+  width: 2px;
+  height: inherit;
+}
+
+/* Gmail Button */
+.gmail {color: white;
+background-color: red;
+width: 2px;
+height: inherit;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: rgb(240, 232, 232);
+}
